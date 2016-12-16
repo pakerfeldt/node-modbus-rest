@@ -1,0 +1,37 @@
+{
+  "name": "modbus-rest",
+  "version": "1.0.0",
+  "description": "Modbus REST interface",
+  "main": "lib/server.js",
+  "bin": {
+    "modbus-rest": "./bin/modbus-rest.js"
+  },
+  "scripts": {
+    "start": "node ./bin/modbus-rest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pakerfeldt/node-modbus-rest.git"
+  },
+  "keywords": [
+    "modbus",
+    "rest",
+    "http",
+    "server"
+  ],
+  "author": "Patrik Åkerfeldt <patrik.akerfeldt@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pakerfeldt/node-modbus-rest/issues"
+  },
+  "homepage": "https://github.com/pakerfeldt/node-modbus-rest#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "express": "^4.13.3",
+    "body-parser": "^1.5.12",
+    "h5.buffers": "~0.1.1",
+    "h5.modbus": "git+https://git@github.com/morkai/h5.modbus.git",
+    "modbus-serial": "^1.3.2",
+    "serialport": "^2.0.5"
+  }
+}
