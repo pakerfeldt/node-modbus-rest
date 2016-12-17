@@ -7,6 +7,14 @@ Modbus is a serial communication protocol used to exchange information between e
 in a modbus network is the one initiating communication and slaves respond to these requests. In this case, the modbus-rest acts as
 the master and communication (writing and reading registers) is initated through the REST API.
 
+### Running
+
+`npm install -g modbus-rest`
+
+`/usr/local/bin/modbus-rest --help`
+
+`/usr/local/bin/modbus-rest --serial=/dev/ttyUSB0`
+
 ### API
 Common path parameters in the API are: `unit` - the slave id, `address` - the starting address of a read or write, `quantity` - the number of registers/coils to read or write.
 
