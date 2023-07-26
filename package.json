@@ -30,8 +30,6 @@
     "express": "^4.13.3",
     "body-parser": "^1.5.12",
     "h5.buffers": "~0.1.1",
-    "h5.modbus": "github:morkai/h5.modbus#8eb063d6f00a07ba9b20076f037ed4cf1eea1d66",
-    "modbus-serial": "^1.3.2",
-    "serialport": "^2.0.5"
+    "h5.modbus": "github:morkai/h5.modbus#8eb063d6f00a07ba9b20076f037ed4cf1eea1d66"
   }
 }
